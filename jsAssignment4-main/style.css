@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    background-image: url('Pic\ 1.avif');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+h1 {
+    color: #333; 
+}
+
+button {
+    padding: 12px 24px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+#catImageResults {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#catImageResults h2 {
+    margin-bottom: 15px;
+}
+
+#catImageResults img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
